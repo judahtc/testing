@@ -1,2 +1,2 @@
-release: python manage.py runserver migrate
+release: python manage.py runserver 
 web: gunicorn BarberBooking.wsgi --log-file -
